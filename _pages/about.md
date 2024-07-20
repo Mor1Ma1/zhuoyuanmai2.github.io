@@ -15,10 +15,12 @@ profile:
 
 news: false # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
-social:  # includes social icons at the bottom of the page
+social: true # includes social icons at the bottom of the page
 ---
 
-Zhuoyuan Mai is a multimedia designer whose creative practice involves cultural speculation , human-machine interaction, mixed reality, and moving images. He consistently integrates technology and culture in his research, leveraging cutting-edge technological advancements to propose solutions for future challenges. Currently, his work focuses on cybernetics and the spirituality of artificial intelligence. 
+Zhuoyuan Mai is a multimedia designer whose creative practice involves cultural speculation , human-machine interaction, mixed reality, and moving images. 
+
+He consistently integrates technology and culture in his research, leveraging cutting-edge technological advancements to propose solutions for future challenges. Currently, his work focuses on cybernetics and the spirituality of artificial intelligence. 
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
