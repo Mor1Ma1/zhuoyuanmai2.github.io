@@ -9,6 +9,26 @@ display_categories: # [work, fun]
 horizontal: false
 ---
 
+<br><br>
+
+---
+
+# 2022 研究下不同时间的项目怎么排列
+
+---
+
+<br>
+
+---
+
+#### Fire means... 
+
+<!-- <br> -->
+
+<!-- ###### Testing the font size -->
+
+---
+
 <!-- pages/projects.md -->
 <div class="projects">
 {% if site.enable_project_categories and page.display_categories %}
@@ -22,14 +42,14 @@ horizontal: false
   <!-- Generate cards for each project -->
   {% if page.horizontal %}
   <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
+    <div class="row row-cols-1 row-cols-md-1">
     {% for project in sorted_projects %}
       {% include projects_horizontal.liquid %}
     {% endfor %}
     </div>
   </div>
   {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
+  <div class="row row-cols-1 row-cols-md-1">
     {% for project in sorted_projects %}
       {% include projects.liquid %}
     {% endfor %}
@@ -48,14 +68,14 @@ horizontal: false
 {% if page.horizontal %}
 
   <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
+    <div class="row row-cols-1 row-cols-md-1">
     {% for project in sorted_projects %}
       {% include projects_horizontal.liquid %}
     {% endfor %}
     </div>
   </div>
   {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
+  <div class="row row-cols-1 row-cols-md-1">
     {% for project in sorted_projects %}
       {% include projects.liquid %}
     {% endfor %}

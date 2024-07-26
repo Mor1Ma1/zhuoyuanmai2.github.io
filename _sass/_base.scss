@@ -159,9 +159,11 @@ ul.task-list input[type="checkbox"] {
 .card {
   background-color: var(--global-card-bg-color);
 
-  .card-img {
+  .card-img-top {
     width: 100%;
-    padding-top: 1.25rem;
+    height: auto; /* 保持原始比例 */
+    display: block;
+    padding-top: 0.0rem;
   }
 
   .card-title {
@@ -370,10 +372,10 @@ ul.task-list input[type="checkbox"] {
 // Social (bottom)
 
 .social {
-  text-align: center;
+  text-align: left;
 
   .contact-icons {
-    font-size: 4rem;
+    font-size: 2rem;
 
     a {
       i::before {
@@ -427,12 +429,12 @@ ul.task-list input[type="checkbox"] {
 // Footer
 footer.fixed-bottom {
   background-color: var(--global-footer-bg-color);
-  font-size: 0.75rem;
+  font-size: 0.0rem;
 
   .container {
     color: var(--global-footer-text-color);
-    padding-top: 9px;
-    padding-bottom: 8px;
+    padding-top: 0px;
+    padding-bottom: 0px;
     text-align: center;
   }
 
@@ -1293,4 +1295,35 @@ ninja-keys::part(ninja-input-wrapper) {
 ::highlight(search) {
   background-color: var(--global-theme-color);
   color: var(--global-text-color);
+}
+
+.video-full-width {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16/9; /* 保持16:9的比例 */
+  border: none;
+}
+
+.video-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 56.25%; /* 16:9比例 (9/16 = 0.5625) */
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.project-links a {
+  color: $orange-color;
+}
+
+.project-links a:hover {
+  color: $klein-blue-color;
+  text-decoration: underline; /* 根据需要添加 */
 }

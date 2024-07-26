@@ -18,7 +18,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Zhuoyuan Mai is a multimedia designer whose creative practice involves cultural speculation , human-machine interaction, mixed reality, and moving images. 
+Zhuoyuan Mai is a multimedia designer whose creative practice involves cultural speculation , human-machine experience, mixed reality, and moving images. 
 
 He consistently integrates technology and culture in his research, leveraging cutting-edge technological advancements to propose solutions for future challenges. Currently, his work focuses on cybernetics and the spirituality of artificial intelligence. 
 
