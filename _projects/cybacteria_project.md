@@ -2,7 +2,7 @@
 layout: page
 title: Cybacteria
 description: 
-img: assets/img/firemeans/1x/firemeans1.webp
+img: assets/img/fire/1x/firemeans1.webp
 importance: 2
 year: 2022
 ---
