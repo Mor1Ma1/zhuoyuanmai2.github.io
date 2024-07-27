@@ -5,29 +5,11 @@ permalink: /projects/
 description: # A growing collection of your cool projects.
 nav: true
 nav_order: 3
-display_categories: # [work, fun]
+display_categories: [2024, 2023, 2022, 2021, 2020] # 添加你需要的年份
 horizontal: false
 ---
 
-<br><br>
-
----
-
-# 2022 研究下不同时间的项目怎么排列
-
----
-
 <br>
-
----
-
-#### Fire means... 
-
-<!-- <br> -->
-
-<!-- ###### Testing the font size -->
-
----
 
 <!-- pages/projects.md -->
 <div class="projects">
@@ -35,9 +17,9 @@ horizontal: false
   <!-- Display categorized projects -->
   {% for category in page.display_categories %}
   <a id="{{ category }}" href=".#{{ category }}">
-    <h2 class="category">{{ category }}</h2>
+    <h2 class="category" style="text-align: left; display: flex; align-items: center;">{{ category }}</h2>
   </a>
-  {% assign categorized_projects = site.projects | where: "category", category %}
+  {% assign categorized_projects = site.projects | where: "year", category %}
   {% assign sorted_projects = categorized_projects | sort: "importance" %}
   <!-- Generate cards for each project -->
   {% if page.horizontal %}

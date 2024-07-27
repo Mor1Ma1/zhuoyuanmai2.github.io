@@ -1,11 +1,10 @@
 ---
 layout: page
 title: Cybacteria
-description: A space for emotional experiences beyond time and space, mediated by fire.
+description: 
 img: assets/img/firemeans/1x/firemeans1.webp
 importance: 2
-category: work
-related_publications: false
+year: 2022
 ---
 
 Hi
